@@ -1,0 +1,37 @@
+body {
+  background: #111;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+#kanyeQuote, #stripQuote {
+  font-size: 24px;
+  margin: 20px 0;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:hover {
+  background: #ff8800;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 12px;
+  color: #888;
+}
